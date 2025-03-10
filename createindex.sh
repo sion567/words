@@ -1,0 +1,1 @@
+python createindex.py > index.html
