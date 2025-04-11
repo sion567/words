@@ -1,186 +1,38 @@
-<!DOCTYPE html>
-<html>
-<head>
 <style>
-  body { 
-    background-color: #CCE8CF;
-    font-family: 'Segoe UI', sans-serif;
-    padding: 30px;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background: white;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-    margin: 20px 0;
-  }
-  th {
-    background-color: #6A9B7C;
-    color: white;
-    padding: 15px;
-    text-align: left;
-  }
-  td {
-    padding: 18px;
-    border-bottom: 1px solid #E8F5E9;
-    vertical-align: top;
-  }
-  .verb { 
-    color: #C62828;
-    font-weight: 600;
-  }
-  .adj-i { 
-    color: #EF6C00;
-  }
-  .adj-na { 
-    color: #1565C0;
-  }
-  .deformation {
-    font-size: 0.95em;
-    color: #455A64;
-  }
-  .example {
-    display: block;
-    font-size: 0.85em;
-    color: #78909C;
-    margin-top: 6px;
-  }
-  tr:nth-child(even) {
-    background-color: #F8F9F7;
-  }
+.vocab-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #CCE8CF;
+  margin: 20px 0;
+}
+.vocab-table th, .vocab-table td {
+  border: 1px solid #2C5F2D;
+  padding: 12px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+.vocab-table th {
+  background-color: #97BC62;
+  color: #2C5F2D;
+  font-weight: bold;
+}
 </style>
-</head>
-<body>
 
-<table>
-  <!-- 表头 -->
+<table class="vocab-table">
   <tr>
-    <th colspan="3">🗓️ 2024年5月25日 日语单词表（动词变形全不重复）</th>
+    <th>単語</th>
+    <th>品詞</th>
+    <th>活用形1</th>
+    <th>活用形2</th>
   </tr>
-  
-  <!-- 动词区块 -->
-  <tr>
-    <td class="verb">1. 話す（はなす）<br>说话</td>
-    <td class="deformation">
-      ▶ 使役被动形<br>
-      <span class="example">話させられる<br>「毎日電話を話させられる」</span>
-    </td>
-    <td class="deformation">
-      ▶ ば条件形<br>
-      <span class="example">話せば<br>「真実を話せば許す」</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="verb">2. 止める（とめる）<br>停止</td>
-    <td>
-      ▶ 被动形<br>
-      <span class="example">止められる<br>「大雨で試合が止められた」</span>
-    </td>
-    <td>
-      ▶ 意向形<br>
-      <span class="example">止めよう<br>「ここで止めよう」</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="verb">3. 踊る（おどる）<br>跳舞</td>
-    <td>
-      ▶ 禁止形<br>
-      <span class="example">踊るな<br>「危ないから踊るな！」</span>
-    </td>
-    <td>
-      ▶ まい形<br>
-      <span class="example">踊るまい<br>「二度と踊るまい」</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="verb">4. 選ぶ（えらぶ）<br>选择</td>
-    <td>
-      ▶ た形<br>
-      <span class="example">選んだ<br>「彼をリーダーに選んだ」</span>
-    </td>
-    <td>
-      ▶ て形<br>
-      <span class="example">選んで<br>「自分で選んで後悔した」</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="verb">5. 戻る（もどる）<br>返回</td>
-    <td>
-      ▶ 条件形<br>
-      <span class="example">戻れば<br>「早く戻れば助かる」</span>
-    </td>
-    <td>
-      ▶ 否定形<br>
-      <span class="example">戻らない<br>「もう戻らない」</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="verb">6. 壊す（こわす）<br>破坏</td>
-    <td>
-      ▶ 可能形<br>
-      <span class="example">壊せる<br>「子供でも壊せる箱」</span>
-    </td>
-    <td>
-      ▶ 命令形<br>
-      <span class="example">壊せ！<br>「邪魔な壁を壊せ！」</span>
-    </td>
-  </tr>
-
-  <!-- 一类形容词 -->
-  <tr>
-    <td class="adj-i">7. 明るい（あかるい）<br>明亮的</td>
-    <td>
-      ▶ 过去形<br>
-      <span class="example">明るかった<br>「昔の月は明るかった」</span>
-    </td>
-    <td>
-      ▶ 副词形<br>
-      <span class="example">明るく<br>「明るく輝く」</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="adj-i">8. 辛い（つらい）<br>痛苦的</td>
-    <td>
-      ▶ 否定形<br>
-      <span class="example">辛くない<br>「今は辛くない」</span>
-    </td>
-    <td>
-      ▶ ば形<br>
-      <span class="example">辛ければ<br>「辛ければ休んで」</span>
-    </td>
-  </tr>
-
-  <!-- 二类形容词 -->
-  <tr>
-    <td class="adj-na">9. 簡単（かんたん）<br>简单的</td>
-    <td>
-      ▶ 条件形<br>
-      <span class="example">簡単なら<br>「簡単なら私がやる」</span>
-    </td>
-    <td>
-      ▶ 强调形<br>
-      <span class="example">簡単だ！<br>「これは簡単だ！」</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="adj-na">10. 必要（ひつよう）<br>必要的</td>
-    <td>
-      ▶ 过去否定形<br>
-      <span class="example">必要ではなかった<br>「実は必要ではなかった」</span>
-    </td>
-    <td>
-      ▶ 副词形<br>
-      <span class="example">必要に<br>「必要に迫られて」</span>
-    </td>
-  </tr>
+  <tr><td>食べる</td><td>動詞</td><td>食べます（ます形）</td><td>食べて（て形）</td></tr>
+  <tr><td>書く</td><td>動詞</td><td>書いた（た形）</td><td>書かない（ない形）</td></tr>
+  <tr><td>見る</td><td>動詞</td><td>見られる（可能形）</td><td>見ろ（命令形）</td></tr>
+  <tr><td>話す</td><td>動詞</td><td>話せば（条件形）</td><td>話そう（意向形）</td></tr>
+  <tr><td>遊ぶ</td><td>動詞</td><td>遊ばれる（受身）</td><td>遊ばせる（使役）</td></tr>
+  <tr><td>寝る</td><td>動詞</td><td>寝ていた（継続形）</td><td>寝れば（仮定形）</td></tr>
+  <tr><td>赤い</td><td>イ形容詞</td><td>赤かった（過去形）</td><td>赤くない（否定形）</td></tr>
+  <tr><td>楽しい</td><td>イ形容詞</td><td>楽しくて（て形）</td><td>楽しければ（仮定形）</td></tr>
+  <tr><td>静か</td><td>ナ形容詞</td><td>静かではない（否定形）</td><td>静かだった（過去形）</td></tr>
+  <tr><td>便利</td><td>ナ形容詞</td><td>便利で（て形）</td><td>便利なら（仮定形）</td></tr>
 </table>
-
-</body>
-</html>
