@@ -1,0 +1,70 @@
+<!-- ================= 样式区 ================= -->
+<style>
+    /* テーブル基盤設定 */
+    table {
+        width: 98%;
+        margin: 15px auto;
+        border-collapse: separate;
+        border-spacing: 0;
+        background: #F8FFF8;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+
+    /* ヘッダー強化 */
+    th {
+        background: linear-gradient(145deg, #2E7D32, #4CAF50);
+        color: #fff;
+        font-family: '游ゴシック', YuGothic, sans-serif;
+        padding: 16px;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    }
+
+    /* データセル微調整 */
+    td {
+        border-bottom: 1px solid #C8E6C9;
+        padding: 14px;
+        transition: background 0.3s ease;
+        font-size: 15px;
+    }
+
+    /* 行交互色 */
+    tr:nth-child(even) { background: #F0FFF4; }
+    tr:hover td { background: #E3FFE3; }
+
+    /* 角丸効果 */
+    th:first-child { border-radius: 8px 0 0 0; }
+    th:last-child { border-radius: 0 8px 0 0; }
+</style>
+
+<!-- ================= 表格本体 ================= -->
+<table>
+    <tr>
+        <th>品詞</th>
+        <th>単語</th>
+        <th>読み方</th>
+        <th>意味</th>
+        <th>変形1</th>
+        <th>変形2</th>
+    </tr>
+    
+<!-- 动词组（6个） -->
+<tr><td>動詞</td><td>譲る</td><td>ゆずる</td><td>转让</td><td>使役形：譲らせる</td><td>被动形：譲られる</td></tr>
+<tr><td>動詞</td><td>届ける</td><td>とどける</td><td>送达</td><td>て形：届けて</td><td>可能形：届けられる</td></tr>
+<tr><td>動詞</td><td>預かる</td><td>あずかる</td><td>保管</td><td>否定形：預からない</td><td>条件形：預かれば</td></tr>
+<tr><td>動詞</td><td>貸す</td><td>かす</td><td>借出</td><td>命令形：貸せ</td><td>授受形：貸してあげる</td></tr>
+<tr><td>動詞</td><td>借りる</td><td>かりる</td><td>借入</td><td>使役受身：借りさせられる</td><td>授受形：借りてもらう</td></tr>
+<tr><td>動詞</td><td>返す</td><td>かえす</td><td>归还</td><td>意向形：返そう</td><td>条件形：返せば</td></tr>
+
+<!-- い形容詞（2个） -->
+<tr><td>い形</td><td>鋭い</td><td>するどい</td><td>尖锐</td><td>比較級：鋭ければ</td><td>名詞化：鋭さ</td></tr>
+<tr><td>い形</td><td>乏しい</td><td>とぼしい</td><td>缺乏</td><td>過去形：乏しかった</td><td>副詞形：乏しく</td></tr>
+
+<!-- な形容詞（2个） -->
+<tr><td>な形</td><td>適切</td><td>てきせつ</td><td>恰当</td><td>否定形：適切でない</td><td>条件形：適切なら</td></tr>
+<tr><td>な形</td><td>不可欠</td><td>ふかけつ</td><td>必需</td><td>たる形：不可欠たる</td><td>副詞形：不可欠に</td></tr>
+
+
+</table>
+</div>

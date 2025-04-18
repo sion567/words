@@ -1,0 +1,69 @@
+<!-- ================= 样式区 ================= -->
+<style>
+    /* テーブル基盤設定 */
+    table {
+        width: 98%;
+        margin: 15px auto;
+        border-collapse: separate;
+        border-spacing: 0;
+        background: #F8FFF8;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+
+    /* ヘッダー強化 */
+    th {
+        background: linear-gradient(145deg, #2E7D32, #4CAF50);
+        color: #fff;
+        font-family: '游ゴシック', YuGothic, sans-serif;
+        padding: 16px;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    }
+
+    /* データセル微調整 */
+    td {
+        border-bottom: 1px solid #C8E6C9;
+        padding: 14px;
+        transition: background 0.3s ease;
+        font-size: 15px;
+    }
+
+    /* 行交互色 */
+    tr:nth-child(even) { background: #F0FFF4; }
+    tr:hover td { background: #E3FFE3; }
+
+    /* 角丸効果 */
+    th:first-child { border-radius: 8px 0 0 0; }
+    th:last-child { border-radius: 0 8px 0 0; }
+</style>
+
+<!-- ================= 表格本体 ================= -->
+<table>
+    <tr>
+        <th>品詞</th>
+        <th>単語</th>
+        <th>読み方</th>
+        <th>意味</th>
+        <th>変形1</th>
+        <th>変形2</th>
+    </tr>
+    
+<!-- 動詞 -->
+<tr><td>動詞</td><td>歩く</td><td>あるく</td><td>行走</td><td>可能形: 歩ける</td><td>受身形: 歩かれる</td></tr>
+<tr><td>動詞</td><td>覚える</td><td>おぼえる</td><td>记住</td><td>使役形: 覚えさせる</td><td>命令形: 覚えろ</td></tr>
+<tr><td>動詞</td><td>笑う</td><td>わらう</td><td>笑</td><td>条件形: 笑えば</td><td>ない形: 笑わない</td></tr>
+<tr><td>動詞</td><td>壊す</td><td>こわす</td><td>破坏</td><td>意向形: 壊そう</td><td>受身形: 壊される</td></tr>
+<tr><td>動詞</td><td>選ぶ</td><td>えらぶ</td><td>选择</td><td>可能形: 選べる</td><td>て形: 選んで</td></tr>
+<tr><td>動詞</td><td>続ける</td><td>つづける</td><td>继续</td><td>使役受身形: 続けさせられる</td><td>否定過去形: 続けなかった</td></tr>
+
+<!-- い形容詞 -->
+<tr><td>い形容詞</td><td>美しい</td><td>うつくしい</td><td>美丽</td><td>過去形: 美しかった</td><td>副詞形: 美しく</td></tr>
+<tr><td>い形容詞</td><td>寂しい</td><td>さびしい</td><td>寂寞</td><td>条件形: 寂しければ</td><td>名詞化: 寂しさ</td></tr>
+
+<!-- な形容詞 -->
+<tr><td>な形容詞</td><td>安全</td><td>あんぜん</td><td>安全</td><td>否定形: 安全でない</td><td>条件形: 安全なら</td></tr>
+<tr><td>な形容詞</td><td>特別</td><td>とくべつ</td><td>特别</td><td>副詞形: 特別に</td><td>過去否定形: 特別じゃなかった</td></tr>
+
+</table>
+</div>
